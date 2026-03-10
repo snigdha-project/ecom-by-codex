@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#f7faf7] text-forest;
+}
+
+.card {
+  @apply rounded-2xl bg-white shadow-sm ring-1 ring-black/5;
+}
